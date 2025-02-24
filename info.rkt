@@ -1,6 +1,6 @@
 #lang info
 (define collection "ollama-chat")
-(define deps '("base"))
+(define deps '("base" "typed-racket-lib" "typed-racket-more"))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
 (define scribblings '(("scribblings/ollama-chat.scrbl" ())))
 (define pkg-desc "Ollama chat clienet")
